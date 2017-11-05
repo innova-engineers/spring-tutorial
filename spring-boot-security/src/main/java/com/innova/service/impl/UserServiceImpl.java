@@ -1,6 +1,6 @@
 package com.innova.service.impl;
 
-import com.innova.UserRepository;
+import com.innova.repository.UserRepository;
 import com.innova.model.User;
 import com.innova.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
