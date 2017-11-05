@@ -1,7 +1,7 @@
 package com.innova.beans;
 
 /**
- * Created by Nirupam on 03-09-2017.
+ * Created by Innova on 03-09-2017.
  */
 public class User {
 

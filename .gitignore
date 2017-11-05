@@ -10,8 +10,8 @@ target/
 .springBeans
 
 #InteilliJ
-workspace.xml
-misc.xml
+.idea
+*.iml
 
 ### NetBeans ###
 nbproject/private/

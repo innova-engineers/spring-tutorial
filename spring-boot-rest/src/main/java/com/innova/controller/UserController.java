@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Nirupam on 03-09-2017.
+ * Created by Innova on 03-09-2017.
  */
 @RestController
 @RequestMapping("/rest/user")
