@@ -23,3 +23,30 @@ nbdist/
 
 #Maven
 target/
+
+#Angular specific
+# compiled output
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+
+# misc
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug.log
+testem.log
+typings
+yarn-error.log
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
