@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.innova</groupId>
-	<artifactId>spring-boot-rest</artifactId>
+	<groupId>com.innova.spring-boot-rest</groupId>
+	<artifactId>part1-introduction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>spring-boot-rest</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-rest-intro</name>
+	<description>Spring Boot REST Introduction</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
