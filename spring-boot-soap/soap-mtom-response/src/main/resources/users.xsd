@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://innova.com/spring/boot/soap/mtomresponse/models/user"
+           targetNamespace="http://innova.com/spring/boot/soap/mtomresponse/models/user"
+           xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+           elementFormDefault="qualified">
+
+    <xs:element name="getUserRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getUserResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user" type="tns:user"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="user">
+        <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="firstname" type="xs:string"/>
+            <xs:element name="lastname" type="xs:string"/>
+            <xs:element name="profilePicture" type="tns:profilePicture"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="profilePicture">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="content" type="xs:base64Binary" xmime:expectedContentTypes="image/jpeg"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
