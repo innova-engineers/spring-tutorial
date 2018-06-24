@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.innova</groupId>
-	<artifactId>spring-boot-soap</artifactId>
+	<groupId>com.innova.spring.boot.soap</groupId>
+	<artifactId>create-soap</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>spring-boot-soap</name>
-	<description>Demo project for Spring Boot SOAP</description>
+	<name>spring-boot-create-soap</name>
+	<description>Demo project for Spring Boot SOAP webservice creation</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
